@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+    background-color: #8ed1fc;
+}
+
+svg {
+    background-color: #0693e3;
+    border-radius: 6px;
+}
+
+#legend {
+    width: 380px;
+    height: 100px;
+}
+
+#legend text{
+    font-size: 15px;
+}
+
+#canvas {
+    min-width: 1000px;
+    min-height: 600px;
+}
+
+#tooltip {
+    visibility: hidden;
+    height: auto;
+    width: auto;
+    background-color: #ff6900 ;
+    color: whitesmoke;
+}
+
+.county:hover {
+    fill: #ff6900;
+}
+
